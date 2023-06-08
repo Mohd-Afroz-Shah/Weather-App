@@ -25,7 +25,6 @@ html {
     width: 15%;
     aspect-ratio: 3/2; /* same size */
     object-fit: contain; /* fit object */
-    /* mix-blend-mode: color-burn; remove background */
 }
 body {
     height: 100vh;
@@ -180,10 +179,6 @@ footer h5{
     font-size: 7rem;
     font-weight: 900;
 }
-/* .data_hide{
-    visibility: hidden;
-    transition: all 0.3s linear;
-} */
 /* Responsive css */
 @media(max-width: 748px){
     .main_header_left{
